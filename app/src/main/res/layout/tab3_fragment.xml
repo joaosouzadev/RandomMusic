@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE">
+
+    <TextView
+        android:id="@+id/textTab3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/search_bar"
+        android:layout_marginTop="42dp"
+        android:text="In this tab you can search for a specific Song or Artist."
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+
+    <EditText
+        android:id="@+id/search_bar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textTab3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:drawableEnd="@drawable/searchicon"
+        android:hint="Search"
+        android:singleLine="true" />
+
+</RelativeLayout>

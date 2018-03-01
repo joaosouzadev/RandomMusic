@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="rock" type="id" />
+    <item name="playing" type="id" />
+    <item name="happy" type="id" />
+    <item name="sad" type="id" />
+</resources>
